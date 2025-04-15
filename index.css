@@ -1,0 +1,47 @@
+#info-container {
+    width: 100%;
+}
+
+#events, #calendar {
+    border: 1px solid #999;
+    border-radius: 5px;
+    height: 500px;
+    text-align: center;
+}
+
+#about-us {
+    text-align: center;
+    padding: 0 1%;
+}
+
+#events-container {
+    width: 38%;
+    height: 500px;
+    padding: 0 1%;
+}
+
+#calendar-container {
+    width: 58%;
+    padding: 0 1%
+}
+
+#info-container ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+}
+
+#calendar iframe {
+    width: 98%;
+    height: 85%;
+    margin: 0 1%;
+}
+
+#from-calendar {
+    overflow: scroll;
+    width: 98%;
+    height: 85%;
+    margin: 0 1%;
+}

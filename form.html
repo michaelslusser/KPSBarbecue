@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>KPS Barbecue - Contact Form</title>
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="header-footer.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="jquery-ui-1.13.1/jquery-ui.min.js"></script>
+        <script src="mailcheck-master/src/mailcheck.min.js"></script>
+        <script src="autosize/jquery.autosize.js"></script>
+        <script src="validate.js"></script>
+        <link rel="stylesheet" href="jquery-ui-1.13.1/jquery-ui.min.css">
+    </head>
+
+    <body>
+        <header>
+            <div id="header">
+                <div id="logo">
+                    <h1>KPS Barbecue</h1>
+                </div>
+                <div id="navbar">
+                    <ul id="navlist">
+                        <a href="index.html">
+                            <li id="home-nav">Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li id="about-nav">About</li>
+                        </a>
+                        <a href="events.html">
+                            <li id="events-nav">Events</li>
+                        </a>
+                        <a href="calendar.html">
+                            <li id="calendar-nav">Calendar</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="info-container">
+                <h2>Thank you for getting in touch with us!</h2>
+                <p>We just need you to answer a question before we get started:</p>
+                <form action="form-confirm.html" method="get" name="contact-form" id="contact-form">
+                    <p>Are you just contacting us or would you like your event posted on our site?</p><br>
+                    <label for="contact">Just contacting!</label>
+                    <input type="radio" name="type" id="contact" value="contact">
+                    <label for="event-info">I'd like my event posted!</label>
+                    <input type="radio" name="type" id="event-info" value="event-info">
+                    <div id="contact-container" hidden>
+                        <label for="first-name">First name:</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="John" aria-label="first name" autocomplete="on">
+                        <span>*</span>
+                        <label for="last-name">Last name:</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Doe" aria-label="last name" autocomplete="on">
+                        <span>*</span>
+                        <br>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="thisismyemail@somewhere.com" aria-label="email address">
+                        <span>*</span>
+                        <br>
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" name="phone" id="phone" placeholder="(123) 456-7890" aria-label="phone number">
+                        <span></span>
+                        <br>
+                        <div id="event-container" hidden>
+                            <label for="group-name">Group name:</label>
+                            <input type="text" name="group-name" id="group-name" aria-label="group name" autocomplete="on">
+                            <span>*</span>
+                            <label for="event-name">Event name:</label>
+                            <input type="text" name="event-name" id="event-name" aria-label="event name" autocomplete="on">
+                            <span>*</span>
+                            <br>
+                            <label for="event-location">Event location:</label>
+                            <input type="text" name="event-location" id="event-location" aria-label="event location">
+                            <span>*</span>
+                            <label for="event-date">Event date:</label>
+                            <input type="date" name="event-date" id="event-date" aria-label="event date">
+                            <span>*</span>
+                            <br>
+                            <label for="start-time">Start time:</label>
+                            <input type="time" name="start-time" id="start-time" aria-label="start time">
+                            <span>*</span>
+                            <label for="end-time">End time:</label>
+                            <input type="time" name="end-time" id="end-time" aria-label="end time">
+                            <span>*</span>
+                            <br>
+                        </div>
+                        <label for="message">Message:</label><br>
+                        <textarea name="message" id="message" aria-label="message"></textarea>
+                        <span>*</span>
+                        <br>
+                        <input type="submit" id="submit" aria-label="submit form"><br>
+                        <p><span>*</span> = required field</p>
+                    </div>
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer">
+                <p>&copy;2022 Michael Slusser</p>
+                <p>KPS Barbecue is fictional and does not exist in the real world.</p>
+                <a href="login.html">Site Owner Login</a>
+            </div>
+        </footer>
+    </body>
+</html>

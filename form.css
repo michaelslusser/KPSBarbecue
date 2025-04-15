@@ -1,0 +1,37 @@
+#info-container h1, #info-container h2, #info-container p {
+    text-align: center;
+}
+
+#contact-form {
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 1% 25%;
+    padding: 0.5% 1%;
+    text-align: center;
+}
+
+#contact-form p {
+    font-size: 15pt;
+}
+
+#contact-form * {
+    padding: 0.5%;
+    margin: 0.5%;
+}
+
+#submission {
+    padding: 1% 20%;
+}
+
+form span {
+    color: red;
+}
+
+#email {
+    width: 60%;
+}
+
+#message {
+    width: 60%;
+    resize: none;
+}

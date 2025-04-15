@@ -1,0 +1,14 @@
+#calendar iframe {
+    width: 90%;
+    height: 600px;
+    
+}
+
+#info-container h2, #info-container p {
+    margin: 0;
+    width: 60%;
+}
+
+#info-container * {
+    padding: 10px 5%;
+}

@@ -1,0 +1,18 @@
+h2 {
+    text-align: center;
+    margin: 20px 25%;
+}
+
+#event-form {
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 1% 25%;
+    padding: 0.5% 1%;
+    text-align: center;
+}
+
+#event-form * {
+    padding: 0.5%;
+    margin: 0.5%;
+    width: 25%;
+}

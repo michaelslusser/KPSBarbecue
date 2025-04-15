@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>KPS Barbecue - Home</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="header-footer.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="eventslist.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div id="header">
+                <div id="logo">
+                    <h1>KPS Barbecue</h1>
+                </div>
+                <div id="navbar">
+                    <ul id="navlist">
+                        <a href="index.html">
+                            <li id="home-nav">Home</li>
+                        </a>
+                        <a href="about.html">
+                            <li id="about-nav">About</li>
+                        </a>
+                        <a href="events.html">
+                            <li id="events-nav">Events</li>
+                        </a>
+                        <a href="calendar.html">
+                            <li id="calendar-nav">Calendar</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="info-container">
+                <ul>
+                    <li id="events-container">
+                        <div id="events">
+                            <a href="events.html">
+                                <h2>Upcoming Events</h2>
+                            </a>
+                            <div id="from-calendar">
+                                <!-- receives HTML from eventslist.js -->
+                            </div>
+                        </div>
+                    </li>
+                    <li id="calendar-container">
+                        <div id="calendar">
+                            <a href="calendar.html">
+                                <h2>Events Calendar</h2>
+                            </a>
+                            <iframe src="https://calendar.google.com/calendar/embed?src=lu907aos05d216dh91v24ki9so%40group.calendar.google.com&ctz=America%2FNew_York" frameborder="0" scrolling="no"></iframe>
+                        </div>
+                    </li>
+                </ul>
+                <div id="about-us">
+                    <a href="about.html">
+                        <h2>About KPS Barbecue</h2>
+                    </a>
+                    <p><i>KPS Barbecue</i> is a community group dedicated to compiling local barbecue events into one, easy to use tool.
+                        The service is meant for people that want to hang out, meet new people, and have a good barbecue!
+                        Event organizers can have their events uploaded to the site in order to spread the word and get
+                        people excited about barbecue.</p>
+                    <p>Fill out <a href="form.html">this form</a> to <b>receive updates from</b> or <b>submit a message to</b> KPS Barbecue!</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer">
+                <p>&copy;2022 Michael Slusser</p>
+                <p>KPS Barbecue is fictional and does not exist in the real world.</p>
+                <a href="login.html">Site Owner Login</a>
+            </div>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </body>
+</html>
